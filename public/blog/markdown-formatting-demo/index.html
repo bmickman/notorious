@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Markdown Formatting Demo</title>
+
+  <!-- Meta -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="author" content="bslthemes" />
+
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik%3A300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CSorts+Mill+Goudy&#038;display=swap" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto" type="text/css" media="all" />
+
+  <!-- Plugins Stylesheets -->
+  <link rel="stylesheet" href="https://bslthemes.com/plugins/bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://bslthemes.com/plugins/font-awesome/css/font-awesome.css" />
+  <link rel="stylesheet" href="https://bslthemes.com/plugins/magnific-popup/magnific-popup.css" />
+  <link rel="stylesheet" href="https://bslthemes.com/plugins/splitting/splitting.css" />
+  <link rel="stylesheet" href="https://bslthemes.com/plugins/swiper/swiper.min.css" />
+  <link rel="stylesheet" href="https://bslthemes.com/plugins/animate/animate.css" />
+
+  <!-- Main Stylesheets -->
+  
+  <link rel="stylesheet" href="https://bslthemes.com/scss/style.min.css" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="https://bslthemes.com/images/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="https://bslthemes.com/images/favicon/favicon.ico" type="image/x-icon" />
+
+  
+
+  </head>
+
+
+<body class="page light-skin">
+  <div class="container-page ">
+    <!-- Preloader -->
+    <div class="preloader">
+	<div class="centrize full-width">
+		<div class="vertical-center">
+			<div class="spinner-logo">
+				
+				<img src="https://bslthemes.com/images/ober_logo.png" alt="site-logo" />
+				<div class="spinner-dot"></div>
+				<div class="spinner spinner-line"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+    <!-- Header -->
+    <header class="header">
+  <div class="header__builder">
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+
+        <!-- logo -->
+        <div class="logo">
+          <a href="https://bslthemes.com/">
+            
+            <img src="https://bslthemes.com/images/ober_logo.png" alt="site-logo" />
+          </a>
+        </div>
+
+      </div>
+      <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 align-right">
+
+        <!-- switcher button -->
+        <a href="#" class="switcher-btn">
+          <span class="sw-before">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22.22" height="22.313" viewBox="0 0 22.22 22.313">
+              <path fill="#fff" d="M1752.49,105.511a5.589,5.589,0,0,0-3.94-1.655,5.466,5.466,0,0,0-3.94,1.655,5.61,5.61,0,0,0,3.94,9.566,5.473,5.473,0,0,0,3.94-1.653,5.643,5.643,0,0,0,1.65-3.957A5.516,5.516,0,0,0,1752.49,105.511Zm-1.06,6.85a4.1,4.1,0,0,1-5.76,0,4.164,4.164,0,0,1,0-5.788A4.083,4.083,0,0,1,1751.43,112.361Zm7.47-3.662h-2.27a0.768,0.768,0,0,0,0,1.536h2.27A0.768,0.768,0,0,0,1758.9,108.7Zm-10.35,8.12a0.777,0.777,0,0,0-.76.769v2.274a0.777,0.777,0,0,0,.76.767,0.786,0.786,0,0,0,.77-0.767v-2.274A0.786,0.786,0,0,0,1748.55,116.819Zm7.85-.531-1.62-1.624a0.745,0.745,0,0,0-1.06,0,0.758,0.758,0,0,0,0,1.063l1.62,1.625a0.747,0.747,0,0,0,1.06,0A0.759,0.759,0,0,0,1756.4,116.288ZM1748.55,98.3a0.777,0.777,0,0,0-.76.768v2.273a0.778,0.778,0,0,0,.76.768,0.787,0.787,0,0,0,.77-0.768V99.073A0.786,0.786,0,0,0,1748.55,98.3Zm7.88,3.278a0.744,0.744,0,0,0-1.06,0l-1.62,1.624a0.758,0.758,0,0,0,0,1.063,0.745,0.745,0,0,0,1.06,0l1.62-1.624A0.758,0.758,0,0,0,1756.43,101.583Zm-15.96,7.116h-2.26a0.78,0.78,0,0,0-.77.768,0.76,0.76,0,0,0,.77.768h2.26A0.768,0.768,0,0,0,1740.47,108.7Zm2.88,5.965a0.745,0.745,0,0,0-1.06,0l-1.62,1.624a0.759,0.759,0,0,0,0,1.064,0.747,0.747,0,0,0,1.06,0l1.62-1.625A0.758,0.758,0,0,0,1743.35,114.664Zm0-11.457-1.62-1.624a0.744,0.744,0,0,0-1.06,0,0.758,0.758,0,0,0,0,1.063l1.62,1.624a0.745,0.745,0,0,0,1.06,0A0.758,0.758,0,0,0,1743.35,103.207Z" transform="translate(-1737.44 -98.313)"/>
+            </svg>
+          </span>
+          <span class="sw-after">
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+              <path fill="#fff" d="M1759.46,111.076a0.819,0.819,0,0,0-.68.147,8.553,8.553,0,0,1-2.62,1.537,8.167,8.167,0,0,1-2.96.531,8.655,8.655,0,0,1-8.65-8.682,9.247,9.247,0,0,1,.47-2.864,8.038,8.038,0,0,1,1.42-2.54,0.764,0.764,0,0,0-.12-1.063,0.813,0.813,0,0,0-.68-0.148,11.856,11.856,0,0,0-6.23,4.193,11.724,11.724,0,0,0,1,15.387,11.63,11.63,0,0,0,19.55-5.553A0.707,0.707,0,0,0,1759.46,111.076Zm-4.5,6.172a10.137,10.137,0,0,1-14.29-14.145,10.245,10.245,0,0,1,3.38-2.836c-0.14.327-.29,0.651-0.41,1.006a9.908,9.908,0,0,0-.56,3.365,10.162,10.162,0,0,0,10.15,10.189,9.776,9.776,0,0,0,3.49-.62,11.659,11.659,0,0,0,1.12-.473A10.858,10.858,0,0,1,1754.96,117.248Z" transform="translate(-1737 -98)"/>
+            </svg>
+          </span>
+        </a>
+
+        <!-- menu button -->
+        <a href="#" class="menu-btn"><span></span></a>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- navigation -->
+  <div class="menu-full-overlay">
+    <div class="menu-full-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-1">
+
+            <!-- navigation list -->
+            <div class="menu-full">
+              <ul class="menu-full">
+                
+                
+                
+                
+                
+                <li class="menu-item">
+                  <a class="splitting-text-anim-2" data-splitting="chars" href="https://bslthemes.com/#about-section">About</a>
+                  
+                </li>
+                
+                
+                
+                
+                <li class="menu-item">
+                  <a class="splitting-text-anim-2" data-splitting="chars" href="https://bslthemes.com/#resume-section">Resume</a>
+                  
+                </li>
+                
+                
+                
+                
+                <li class="menu-item">
+                  <a class="splitting-text-anim-2" data-splitting="chars" href="https://bslthemes.com/#works-section">Works</a>
+                  
+                </li>
+                
+                
+                
+                
+                <li class="menu-item">
+                  <a class="splitting-text-anim-2" data-splitting="chars" href="https://bslthemes.com/#pricing-section">Pricing</a>
+                  
+                </li>
+                
+                
+                
+                
+                <li class="menu-item">
+                  <a class="splitting-text-anim-2" data-splitting="chars" href="https://bslthemes.com/#blog-section">Blog</a>
+                  
+                </li>
+                
+                
+                
+                
+                <li class="menu-item">
+                  <a class="splitting-text-anim-2" data-splitting="chars" href="https://bslthemes.com/#contact-section">Contact</a>
+                  
+                </li>
+                
+                
+                
+                
+                <li class="menu-item menu-item-has-children has-children">
+                  <a class="splitting-text-anim-2" data-splitting="chars" href="https://bslthemes.com/#pages">Pages</a>
+                  
+                  <ul class="sub-menu">
+                    
+                    
+                    
+                    <li class="menu-item"><a class="splitting-text-anim-1" data-splitting="chars" href="/blog/">Blog List</a></li>
+                    
+                    
+                    
+                    <li class="menu-item"><a class="splitting-text-anim-1" data-splitting="chars" href="/portfolio/">Works List</a></li>
+                    
+                  </ul>
+                  
+                </li>
+                
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- social -->
+    <div class="menu-social-links">
+      
+      <a href="https://www.twitter.com/" target="blank" class="scrolla-element-anim-1" title="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+      
+      <a href="https://www.dribbble.com/" target="blank" class="scrolla-element-anim-1" title="Dribbble">
+        <i class="fab fa-dribbble"></i>
+      </a>
+      
+      <a href="https://www.behance.net/" target="blank" class="scrolla-element-anim-1" title="Behance">
+        <i class="fab fa-behance"></i>
+      </a>
+      
+    </div>
+
+  </div>
+
+</header>
+
+
+    <!-- Wrapper -->
+		<div class="wrapper single-post" id="content">
+      
+
+
+<!-- heading -->
+<section class="section section-inner started-heading">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+				<div class="m-titles">
+					<h1 class="m-title scrolla-element-anim-1 scroll-animate" data-animate="active">
+						Markdown Formatting Demo
+					</h1>
+					<div class="m-category scrolla-element-anim-1 scroll-animate" data-animate="active">
+            
+            
+            <a href="https://bslthemes.com/categories/travel/">Travel</a>
+            
+            
+						/ September 13, 2020 / 3 mins read
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- single post -->
+<section class="section section-inner m-archive">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-1">
+
+				<!-- image -->
+				<div class="m-image-large">
+					<div class="image">
+						
+						<div class="img scrolla-element-anim-1 scroll-animate" data-animate="active" style="background-image: url(https://bslthemes.com/images/blog/blog9.jpg);"></div>
+						
+					</div>
+				</div>
+
+				<!-- content -->
+				<div class="description">
+					<div class="post-content scrolla-element-anim-1 scroll-animate" data-animate="active">
+
+						<p>This example Markdown file compliments of <a href="https://markdown-it.github.io/">markdown-it.github.io</a></p>
+<hr>
+<h1 id="h1-heading-8-">h1 Heading 8-)</h1>
+<h2 id="h2-heading">h2 Heading</h2>
+<h3 id="h3-heading">h3 Heading</h3>
+<h4 id="h4-heading">h4 Heading</h4>
+<h5 id="h5-heading">h5 Heading</h5>
+<h6 id="h6-heading">h6 Heading</h6>
+<h2 id="horizontal-rules">Horizontal Rules</h2>
+<hr>
+<hr>
+<hr>
+<h2 id="typographic-replacements">Typographic replacements</h2>
+<p>Enable typographer option to see result.</p>
+<p>(c) (C) (r) (R) (tm) (TM) (p) (P) +-</p>
+<p>test.. test&hellip; test&hellip;.. test?&hellip;.. test!&hellip;.</p>
+<p>!!!!!! ???? ,, &ndash; &mdash;</p>
+<p>&ldquo;Smartypants, double quotes&rdquo; and &lsquo;single quotes&rsquo;</p>
+<h2 id="emphasis">Emphasis</h2>
+<p><strong>This is bold text</strong></p>
+<p><strong>This is bold text</strong></p>
+<p><em>This is italic text</em></p>
+<p><em>This is italic text</em></p>
+<p><del>Strikethrough</del></p>
+<h2 id="blockquotes">Blockquotes</h2>
+<blockquote>
+<p>Blockquotes can also be nested&hellip;</p>
+<blockquote>
+<p>&hellip;by using additional greater-than signs right next to each other&hellip;</p>
+<blockquote>
+<p>&hellip;or with spaces between arrows.</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="lists">Lists</h2>
+<p>Unordered</p>
+<ul>
+<li>Create a list by starting a line with <code>+</code>, <code>-</code>, or <code>*</code></li>
+<li>Sub-lists are made by indenting 2 spaces:
+<ul>
+<li>Marker character change forces new list start:
+<ul>
+<li>Ac tristique libero volutpat at</li>
+</ul>
+<ul>
+<li>Facilisis in pretium nisl aliquet</li>
+</ul>
+<ul>
+<li>Nulla volutpat aliquam velit</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Very easy!</li>
+</ul>
+<p>Ordered</p>
+<ol>
+<li>
+<p>Lorem ipsum dolor sit amet</p>
+</li>
+<li>
+<p>Consectetur adipiscing elit</p>
+</li>
+<li>
+<p>Integer molestie lorem at massa</p>
+</li>
+<li>
+<p>You can use sequential numbers&hellip;</p>
+</li>
+<li>
+<p>&hellip;or keep all the numbers as <code>1.</code></p>
+</li>
+</ol>
+<p>Start numbering with offset:</p>
+<ol start="57">
+<li>foo</li>
+<li>bar</li>
+</ol>
+<h2 id="code">Code</h2>
+<p>Inline <code>code</code></p>
+<p>Indented code</p>
+<pre><code>// Some comments
+line 1 of code
+line 2 of code
+line 3 of code
+</code></pre>
+<p>Block code &ldquo;fences&rdquo;</p>
+<pre tabindex="0"><code>Sample text here...
+</code></pre><p>Syntax highlighting</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">foo</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span> (<span style="color:#a6e22e">bar</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">bar</span><span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">foo</span>(<span style="color:#ae81ff">5</span>));
+</span></span></code></pre></div><h2 id="tables">Tables</h2>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>data</td>
+<td>path to data files to supply the data that will be passed into templates.</td>
+</tr>
+<tr>
+<td>engine</td>
+<td>engine to be used for processing templates. Handlebars is the default.</td>
+</tr>
+<tr>
+<td>ext</td>
+<td>extension to be used for dest files.</td>
+</tr>
+</tbody>
+</table>
+<p>Right aligned columns</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">Option</th>
+<th style="text-align:right">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">data</td>
+<td style="text-align:right">path to data files to supply the data that will be passed into templates.</td>
+</tr>
+<tr>
+<td style="text-align:right">engine</td>
+<td style="text-align:right">engine to be used for processing templates. Handlebars is the default.</td>
+</tr>
+<tr>
+<td style="text-align:right">ext</td>
+<td style="text-align:right">extension to be used for dest files.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="links">Links</h2>
+<p><a href="http://dev.nodeca.com">link text</a></p>
+<p><a href="http://nodeca.github.io/pica/demo/" title="title text!">link with title</a></p>
+<p>Autoconverted link <a href="https://github.com/nodeca/pica">https://github.com/nodeca/pica</a> (enable linkify to see)</p>
+<h2 id="images">Images</h2>
+<p>(note: redacted this section cause images were too big)</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="plugins">Plugins</h2>
+<p>The killer feature of <code>markdown-it</code> is very effective support of
+<a href="https://www.npmjs.org/browse/keyword/markdown-it-plugin">syntax plugins</a>.</p>
+<h3 id="emojieshttpsgithubcommarkdown-itmarkdown-it-emoji"><a href="https://github.com/markdown-it/markdown-it-emoji">Emojies</a></h3>
+<blockquote>
+<p>Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:</p>
+<p>Shortcuts (emoticons): :-) :-( 8-) ;)</p>
+</blockquote>
+<p>see <a href="https://github.com/markdown-it/markdown-it-emoji#change-output">how to change output</a> with twemoji.</p>
+<h3 id="subscripthttpsgithubcommarkdown-itmarkdown-it-sub--superscripthttpsgithubcommarkdown-itmarkdown-it-sup"><a href="https://github.com/markdown-it/markdown-it-sub">Subscript</a> / <a href="https://github.com/markdown-it/markdown-it-sup">Superscript</a></h3>
+<ul>
+<li>19^th^</li>
+<li>H~2~O</li>
+</ul>
+<h3 id="inshttpsgithubcommarkdown-itmarkdown-it-ins"><a href="https://github.com/markdown-it/markdown-it-ins">&lt;ins&gt;</a></h3>
+<p>++Inserted text++</p>
+<h3 id="markhttpsgithubcommarkdown-itmarkdown-it-mark"><a href="https://github.com/markdown-it/markdown-it-mark">&lt;mark&gt;</a></h3>
+<p>==Marked text==</p>
+<h3 id="footnoteshttpsgithubcommarkdown-itmarkdown-it-footnote"><a href="https://github.com/markdown-it/markdown-it-footnote">Footnotes</a></h3>
+<p>Footnote 1 link<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>Footnote 2 link<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>Inline footnote^[Text of inline footnote] definition.</p>
+<p>Duplicated footnote reference<sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<h3 id="definition-listshttpsgithubcommarkdown-itmarkdown-it-deflist"><a href="https://github.com/markdown-it/markdown-it-deflist">Definition lists</a></h3>
+<dl>
+<dt>Term 1</dt>
+<dd>
+<p>Definition 1
+with lazy continuation.</p>
+</dd>
+<dt>Term 2 with <em>inline markup</em></dt>
+<dd>
+<p>Definition 2</p>
+<pre><code>  { some code, part of Definition 2 }
+</code></pre>
+<p>Third paragraph of definition 2.</p>
+</dd>
+</dl>
+<p><em>Compact style:</em></p>
+<p>Term 1
+~ Definition 1</p>
+<p>Term 2
+~ Definition 2a
+~ Definition 2b</p>
+<h3 id="abbreviationshttpsgithubcommarkdown-itmarkdown-it-abbr"><a href="https://github.com/markdown-it/markdown-it-abbr">Abbreviations</a></h3>
+<p>This is HTML abbreviation example.</p>
+<p>It converts &ldquo;HTML&rdquo;, but keep intact partial entries like &ldquo;xxxHTMLyyy&rdquo; and so on.</p>
+<p>*[HTML]: Hyper Text Markup Language</p>
+<h3 id="custom-containershttpsgithubcommarkdown-itmarkdown-it-container"><a href="https://github.com/markdown-it/markdown-it-container">Custom containers</a></h3>
+<p>::: warning
+<em>here be dragons</em>
+:::</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Footnote <strong>can have markup</strong></p>
+<p>and multiple paragraphs.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Footnote text.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+
+						<div class="social-share" data-title="Markdown Formatting Demo" data-url="https://bslthemes.com/blog/markdown-formatting-demo/">
+							<span>Share:</span>
+							<a class="share-btn share-btn-facebook share-btn-1" title="Share on Facebook">
+									<i class="fab fa-facebook"></i>
+							</a>
+							<a class="share-btn share-btn-twitter share-btn-2" title="Share on Twitter">
+									<i class="fab fa-twitter"></i>
+							</a>
+							<a class="share-btn share-btn-linkedin share-btn-3" title="Share on Linkedin">
+									<i class="fab fa-linkedin"></i>
+							</a>
+							<a class="share-btn share-btn-reddit share-btn-4" title="Share on Reddit">
+									<i class="fab fa-reddit"></i>
+							</a>
+							<a class="share-btn share-btn-pinterest share-btn-5" title="Share on Pinterest">
+									<i class="fab fa-pinterest"></i>
+							</a>
+						</div>
+
+						<div class="byline">
+							By <span class="author">Federico Ober</span>
+						</div>
+
+						
+						<div class="tags-links">
+							<span>Tags:</span>
+							
+							<a href="https://bslthemes.com/tags/website/" rel="tag">Website</a>
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>
+
+			
+			<!-- comments -->
+			<div class="comments-post scrolla-element-anim-1 scroll-animate" data-animate="active">
+				<div class="section__comments">
+
+					<div class="m-titles">
+						<div class="m-title align-left">Comments</div>
+					</div>
+
+					<div class="comments">
+						<div id="disqus_thread"></div>
+						<script>
+							var disqus_config = function () {
+								this.page.url = "https:\/\/bslthemes.com\/blog\/markdown-formatting-demo\/";   
+								this.page.identifier = "5bd52783ab2dc8a74a069d3dc087fcc9";  
+							};
+							(function() {  
+								var d = document, s = d.createElement('script');
+								s.src = 'https://test.disqus.com/embed.js';
+								s.setAttribute('data-timestamp', +new Date());
+								(d.head || d.body).appendChild(s);
+							})();
+						</script>
+						<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+					</div>
+
+				</div>
+			</div>
+			
+
+		</div>
+	</div>
+</section>
+
+
+
+<!-- navigation -->
+<section class="m-page-navigation">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="h-titles h-navs">
+					
+					<a href="https://bslthemes.com/blog/designer-conference-at-florida-2020/">
+						<span class="nav-arrow scrolla-element-anim-1 scroll-animate" data-animate="active">
+							Previous Post
+						</span>
+						<span class="h-title splitting-text-anim-2 scroll-animate" data-splitting="chars" data-animate="active">
+							Designer Conference at Florida 2020
+						</span>
+					</a>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+	<div class="footer__builder">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-left">
+
+					<!-- social -->
+					<div class="social-links scrolla-element-anim-1 scroll-animate" data-animate="active">
+						
+			      <a href="https://www.twitter.com/" target="blank" title="Twitter">
+			        <i class="fab fa-twitter"></i>
+			      </a>
+			      
+			      <a href="https://www.dribbble.com/" target="blank" title="Dribbble">
+			        <i class="fab fa-dribbble"></i>
+			      </a>
+			      
+			      <a href="https://www.behance.net/" target="blank" title="Behance">
+			        <i class="fab fa-behance"></i>
+			      </a>
+			      
+					</div>
+
+				</div>
+
+				
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-center">
+					<div class="copyright-text scrolla-element-anim-1 scroll-animate" data-animate="active">© 2022 Ober. All Rights Reserved</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-right">
+					<div class="copyright-text scrolla-element-anim-1 scroll-animate" data-animate="active">Developed By <strong>bslthemes</strong></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+  </div>
+
+  <!-- Cursor -->
+	<div class="cursor"></div>
+
+  <!-- Scripts -->
+  <script src="https://bslthemes.com/plugins/jQuery/jquery.min.js"></script>
+<script src="https://bslthemes.com/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="https://bslthemes.com/plugins/validate/jquery.validate.min.js"></script>
+<script src="https://bslthemes.com/plugins/swiper/swiper.min.js"></script>
+<script src="https://bslthemes.com/plugins/magnific-popup/magnific-popup.min.js"></script>
+<script src="https://bslthemes.com/plugins/splitting/splitting.js"></script>
+<script src="https://bslthemes.com/plugins/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="https://bslthemes.com/plugins/isotope/isotope.pkgd.js"></script>
+<script src="https://bslthemes.com/plugins/jarallax/jarallax.min.js"></script>
+<script src="https://bslthemes.com/plugins/scrolla/jquery.scrolla.js"></script>
+<script src="https://bslthemes.com/plugins/skrollr/skrollr.js"></script>
+<script src="https://bslthemes.com/plugins/cookie/jquery.cookie.js"></script>
+
+
+<script src="https://bslthemes.com/js/form-handler.min.js"></script>
+
+
+<script src="https://bslthemes.com/js/common.min.js"></script>
+
+</body>
+
+</html>

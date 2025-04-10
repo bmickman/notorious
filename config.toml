@@ -1,0 +1,104 @@
+# General Settings
+title = "Notorious Octopus"
+baseURL = "https://www.notoriousoctop.us/" #YOUR SITE URL
+languageCode = "en-us"
+theme = "ober"
+resourceDir = "../resources"
+paginate = 6
+summaryLength = 20
+DefaultContentLanguage = "en"
+
+# Menu Settings
+[menu]
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "#about-section"
+  weight = 1
+[[menu.main]]
+  identifier = "services"
+  name = "Services"
+  url = "#resume-section"
+  weight = 2
+[[menu.main]]
+  identifier = "works"
+  name = "Works"
+  url = "#works-section"
+  weight = 3
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "#blog-section"
+  weight = 5
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "#contact-section"
+  weight = 6
+[[menu.main]]
+  identifier = "pages"
+  name = "Pages"
+  url = "#pages"
+  weight = 7
+[[menu.main]]
+  identifier = "pages-blog"
+  parent = "pages"
+  name = "Blog List"
+  url = "/blog/"
+  weight = 1
+[[menu.main]]
+  identifier = "pages-works"
+  parent = "pages"
+  name = "Works List"
+  url = "/portfolio/"
+  weight = 2
+
+# Main Settings
+[params]
+defaultSkin = "light"
+dateFormat = "January 2, 2006"
+authorName = "Federico Ober"
+googleAnalytics = "" #YOUR GOOGLE ANALYTICS CODE
+
+# Preloader Settings
+[params.preloader]
+logo = "images/nobslogo.png"
+
+# Header Settings
+[params.header]
+logo = "images/nobslogo.png"
+
+# Footer Settings
+[params.footer]
+copyright = "© 2025 Notorious Octopus Brand & Strategy. All Rights Reserved"
+developer = "Notorious Octopus Brand & Strategy"
+
+# Social Settings
+[[params.social]]
+title = "Twitter"
+icon = "fab fa-linkedin"
+url = "https://www.linkedin.com/company/11806442/"
+weight = 1
+
+# Portfolio Settings
+[params.portfolio]
+homeNumOfItems = 12
+[[params.portfolio.filters]]
+name = "Project Management"
+slug = "project-management"
+[[params.portfolio.filters]]
+name = "UI UX Design"
+slug = "ui-ux-design"
+[[params.portfolio.filters]]
+name = "Consulting"
+slug = "consulting"
+[[params.portfolio.filters]]
+name = "Branding"
+slug = "branding"
+
+# Sitemap Settings
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"

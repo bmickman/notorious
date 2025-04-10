@@ -1,0 +1,155 @@
+# Sections content configuration file
+##
+### use navigation.yml file to re-order, delete or add section of each card
+### here you can find all content in all pre-build sections
+
+### Hero [ heroSection ]
+hero:
+  enable: true
+  image: "images/about/profile.png"
+  image_alt: "Notorious Octopus"
+  title: "notorious <br>octopus"
+  subtitle: "brand design & strategy consulting for growth"
+  description: "Envisioning, Creating, Designing, and Building for Business.  Project Ownership, Transparency, Collaboration and Flexibility."
+  info:
+    - label: "Based in"
+      value: "New York City"
+
+    - label: "Experienced"
+      value: "Small Business to Enterprise"
+
+    - label: "Destination"
+      value: "Growth"
+
+### About [ aboutSection ]
+about:
+  enable: true
+  title: "About"
+  text: "
+    <p>
+      Notorious Octopus Brand & Strategy is a marketing firm based in New York City 
+      that specializes in delivering branding, content management, and project management services. 
+  </p>
+  <p>
+       We will help you craft your brand identity to resonate with the aesthetics of your audience and inspire long-lasting customer loyalty.        
+  </p>
+
+  "
+  list:
+    - label: "Design"
+      icon: "far fa-check-circle"
+      value: "124"
+
+    - label: "Connect"
+      icon: "far fa-smile-beam"
+      value: "65"
+
+    - label: "Progress"
+      icon: "far fa-gem"
+      value: "18"
+
+  button:
+    text: "Contact Me"
+    link: "#contact-section"
+
+  signature:
+    image: ""
+    alt: ""
+
+### Resume [ resumeSection ]
+resume:
+  enable: true
+  title: "Our Services"
+  text: "
+  <p>
+  </p>
+  "
+
+  services:
+    enable: true
+    title: ""
+    items:
+      - icon: "fas fa-wrench"
+        name: "Project Management and Leadership"
+        text: "<p></p>"
+
+      - icon: "fas fa-paint-brush"
+        name: "Brand Design and Development"
+        text: "<p></p>"
+
+      - icon: "fas fa-chess"
+        name: "Digital Marketing and Strategy"
+        text: "<p></p>"
+
+      - icon: "fas fa-briefcase"
+        name: "Business Consulting "
+        text: "<p></p>"
+
+### Pricing [ pricingSection ]
+
+### Testimonial [ testimonialSection ]
+testimonial:
+  enable: FALSE
+  items:
+    - image: "images/testimonial/team3.jpg"
+      name: "Jennifer Smith"
+      subname: "CEO &amp; Founder"
+      text: "<p>Sed vel mattis dolor. Vestibulum gravida, dolor vel dapibus bibendum, velit enim finibus mauris, in volutpat arcu magna ac metus. Sed condimentum, erat vel sodales pharetra, ligula massa maximus dolor</p>"
+
+    - image: "images/testimonial/team3.jpg"
+      name: "James Green"
+      subname: "Art Director"
+      text: "<p>Sed vel mattis dolor. Vestibulum gravida, dolor vel dapibus bibendum, velit enim finibus mauris, in volutpat arcu magna ac metus. Sed condimentum, erat vel sodales pharetra, ligula massa maximus dolor</p>"
+
+    - image: "images/testimonial/team3.jpg"
+      name: "Joseph Mackey"
+      subname: "Architect"
+      text: "<p>Sed vel mattis dolor. Vestibulum gravida, dolor vel dapibus bibendum, velit enim finibus mauris, in volutpat arcu magna ac metus. Sed condimentum, erat vel sodales pharetra, ligula massa maximus dolor</p>"
+
+### Clients [ clientsSection ]
+clients:
+  enable: false
+  title: "My Clients"
+  text: "<p>Suspendisse potenti. Sed egestas eros eu libero posuere ultrices. Nullam ut aliquet felis, sit amet imperdiet felis.</p>"
+  items:
+    - image: "images/brands/brand1.png"
+      title: "bslthemes"
+
+    - image: "images/brands/brand2.png"
+      title: "bslthemes"
+
+    - image: "images/brands/brand3.png"
+      title: "bslthemes"
+
+    - image: "images/brands/brand4.png"
+      title: "bslthemes"
+
+### Contact [ contacts ]
+contact:
+  enable: true
+  title: "Contact Me"
+  list:
+
+    - label: "Email"
+      icon: "fas fa-at"
+      value: "brandon.mickman@gmail.com"
+
+    - label: "Location"
+      icon: "fas fa-location-arrow"
+      value: "New York, NY"
+
+### Blog [ blogSection ]
+#items generates from dir /content/blog/*
+blog:
+  enable: true
+  title: "Blog"
+  text: "<p>Perspectives, from the frontlines of marketing</p>"
+  button: "Read Blog"
+  link: "/blog"
+
+### Portfolio [ portfolioSection ]
+#items generates from dir /content/portfolio/*
+portfolio:
+  enable: true
+  title: "Selected Projects"
+  text: "<p> </p>"
