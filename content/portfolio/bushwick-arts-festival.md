@@ -7,7 +7,7 @@ category_slug: project-management, branding, consulting, ui-ux-design
 image: images/works/bushwickartsfestival.png
 
 # full details
-full_image: images/works/bushwick-arts-festival.png
+full_image: images/works/work7.jpg
 info:
   - label: Year
     value: 2016-2017

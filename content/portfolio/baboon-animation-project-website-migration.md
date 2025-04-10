@@ -7,7 +7,7 @@ featureImage: images/works/baboon.png
 image: images/works/baboon.png
 
 # full details
-full_image: images/works/baboon.png
+full_image: images/works/work7.jpg
 info:
   - label: Year
     value: 2017

@@ -7,7 +7,7 @@ category_slug: project-management, branding, consulting
 image: images/works/deloitte.png
 
 # full details
-full_image: images/works/deloitte.png
+full_image: images/works/work7.jpg
 
 info:
   - label: Year
