@@ -76,7 +76,7 @@ developer = "Notorious Octopus Brand & Strategy"
 
 # Social Settings
 [[params.social]]
-title = "Twitter"
+title = "Linkedin"
 icon = "fab fa-linkedin"
 url = "https://www.linkedin.com/company/11806442/"
 weight = 1
