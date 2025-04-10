@@ -1,6 +1,6 @@
 # General Settings
 title = "Notorious Octopus"
-baseURL = "https://www.notoriousoctop.us/" #YOUR SITE URL
+baseURL = "https://notoriousoctopus.netlify.app/" #YOUR SITE URL
 languageCode = "en-us"
 theme = "ober"
 resourceDir = "../resources"
