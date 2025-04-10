@@ -3,10 +3,11 @@ title: "Baboon Animation"
 date: 2025-03-25T16:16:04-04:00
 category: Project Management, UI UX Design
 category_slug: project-management, ui-ux-design
-image: images/works/work7.jpg
+featureImage: images/works/baboon.png
+image: images/works/baboon.png
 
 # full details
-full_image: images/works/work7.jpg
+full_image: images/works/baboon.png
 info:
   - label: Year
     value: 2017

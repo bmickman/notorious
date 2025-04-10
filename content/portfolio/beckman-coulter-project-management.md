@@ -3,7 +3,7 @@ title: "Beckman Coulter"
 date: 2025-03-27T16:13:54-04:00
 category: Project Management, Branding, Consulting
 category_slug: project-management, consulting
-image: images/works/work7.jpg
+image: images/works/beckman.png
 
 # full details
 full_image: images/works/work7.jpg

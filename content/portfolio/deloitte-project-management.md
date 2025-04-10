@@ -4,10 +4,11 @@ title: "Deloitte"
 date: 2025-03-29T16:11:45-04:00
 category: Project Management, Branding, Consulting
 category_slug: project-management, branding, consulting
-image: images/works/work7.jpg
+image: images/works/deloitte.png
 
 # full details
-full_image: images/works/work7.jpg
+full_image: images/works/deloitte.png
+
 info:
   - label: Year
     value: 2022-2023
