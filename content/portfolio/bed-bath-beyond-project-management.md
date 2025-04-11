@@ -1,8 +1,8 @@
 ---
 title: "Bed Bath & Beyond"
 date: 2025-03-28T16:13:06-04:00
-category: Project Management, Branding
-category_slug: project-management, branding
+category: Retail/CPG
+category_slug: retail
 image: images/works/bedbath.png
 
 # full details

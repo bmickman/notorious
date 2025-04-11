@@ -1,8 +1,8 @@
 ---
 title: "Beckman Coulter"
 date: 2025-03-27T16:13:54-04:00
-category: Project Management, Branding, Consulting
-category_slug: project-management, consulting
+category: Biotech/Pharma
+category_slug: biotech
 image: images/works/beckman.png
 
 # full details

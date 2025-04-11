@@ -2,8 +2,8 @@
 # preview details
 title: "Bushwick Arts Festival"
 date: 2025-03-26T16:11:45-04:00
-category: Project Management, Branding, Consulting, UI UX Design
-category_slug: project-management, branding, consulting, ui-ux-design
+category: Nonprofit
+category_slug:  nonprofit
 image: images/works/bushwickartsfestival.png
 
 # full details

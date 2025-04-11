@@ -58,7 +58,7 @@ DefaultContentLanguage = "en"
 [params]
 defaultSkin = "light"
 dateFormat = "January 2, 2006"
-authorName = "Federico Ober"
+authorName = "Notorious Octopus"
 googleAnalytics = "" #YOUR GOOGLE ANALYTICS CODE
 
 # Preloader Settings
@@ -83,19 +83,19 @@ weight = 1
 
 # Portfolio Settings
 [params.portfolio]
-homeNumOfItems = 12
+homeNumOfItems = 6
 [[params.portfolio.filters]]
-name = "Project Management"
-slug = "project-management"
+name = "Retail/CPG"
+slug = "retail"
 [[params.portfolio.filters]]
-name = "UI UX Design"
-slug = "ui-ux-design"
+name = "Biotech/Pharma"
+slug = "biotech"
 [[params.portfolio.filters]]
-name = "Consulting"
-slug = "consulting"
+name = "Nonprofit"
+slug = "nonprofit"
 [[params.portfolio.filters]]
-name = "Branding"
-slug = "branding"
+name = "B2B/Consulting"
+slug = "b2b"
 
 # Sitemap Settings
 [sitemap]

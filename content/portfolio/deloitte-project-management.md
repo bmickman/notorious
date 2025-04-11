@@ -2,8 +2,8 @@
 # preview details
 title: "Deloitte"
 date: 2025-03-29T16:11:45-04:00
-category: Project Management, Branding, Consulting
-category_slug: project-management, branding, consulting
+category: Consulting/B2B
+category_slug:  b2b
 image: images/works/deloitte.png
 
 # full details

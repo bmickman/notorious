@@ -1,8 +1,8 @@
 ---
 title: "Baboon Animation"
 date: 2025-03-25T16:16:04-04:00
-category: Project Management, UI UX Design
-category_slug: project-management, ui-ux-design
+category: B2B/Consulting
+category_slug: b2b
 featureImage: images/works/baboon.png
 image: images/works/baboon.png
 
