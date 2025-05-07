@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://notoriousoctop.us/</loc>
+  <lastmod>2025-05-07T20:31:47+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://notoriousoctop.us/blog/</loc>
+  <lastmod>2025-05-07T20:31:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notoriousoctop.us/portfolio/</loc>
+  <lastmod>2025-05-07T20:31:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notoriousoctop.us/portfolio/deloitte-project-management/</loc>
+  <lastmod>2025-05-07T20:31:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notoriousoctop.us/portfolio/bed-bath-beyond-project-management/</loc>
+  <lastmod>2025-05-07T20:31:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notoriousoctop.us/portfolio/beckman-coulter-project-management/</loc>
+  <lastmod>2025-05-07T20:31:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notoriousoctop.us/portfolio/bushwick-arts-festival/</loc>
+  <lastmod>2025-05-07T20:31:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notoriousoctop.us/portfolio/baboon-animation-project-website-migration/</loc>
+  <lastmod>2025-05-07T20:31:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notoriousoctop.us/blog/notorious-octopus-nyc-relaunch/</loc>
+  <lastmod>2025-05-07T20:31:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notoriousoctop.us/categories/intro/</loc>
+  <lastmod>2025-05-07T20:31:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notoriousoctop.us/tags/marketing/</loc>
+  <lastmod>2025-05-07T20:31:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
